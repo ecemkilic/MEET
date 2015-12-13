@@ -206,3 +206,271 @@ namespace MeetApplication.ForUser
         }
     }
 }
+
+
+- Ecem // Company Home Page
+- using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Mail;
+using System.Web;
+using System.Web.Services.Description;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForCompany
+{
+    public partial class CompanyHomePage : System.Web.UI.Page
+    {
+      
+        protected void Page_Load(object sender, EventArgs e)
+        {
+                  
+        }
+
+        protected void btnGonder_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btnTemizle_Click(object sender, EventArgs e)
+        {
+           
+        }
+    }
+}
+
+//Company Login Page
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.CompanyPages
+{
+    public partial class CompanyLoginPage : System.Web.UI.Page
+    {
+        
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnGiris_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}
+
+//Error Page
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.Errors
+{
+    public partial class ErrorPage : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+//Admin Login
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.Errors
+{
+    public partial class ErrorPage : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+//Advertisement
+sing System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForAdmin
+{
+    public partial class Advertisementt : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+        protected void btnSil_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        protected void btnEkle_Click(object sender, EventArgs e)
+        {
+           
+        }
+    }
+}
+
+//Category
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForAdmin
+{
+    public partial class Categoryy : System.Web.UI.Page
+    {
+        
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+        protected void btnEkle_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        protected void btnGuncelle_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btnSil_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}
+
+//Home Page
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForAdmin
+{
+    public partial class HomePage : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnRest_Click(object sender, EventArgs e)
+        {
+        }
+
+        protected void btnKat_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        protected void btnUrun_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btnReklam_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}
+
+//Product
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForAdmin
+{
+    public partial class Productt : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+    
+        protected void btnEkle_Click(object sender, EventArgs e)
+        {
+        }
+
+        protected void btnGuncelle_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btnSil_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}
+
+//Restaurant
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace MeetApplication.ForAdmin
+{
+    public partial class Restaurant : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void sil_Click(object sender, EventArgs e)
+        {
+          
+            
+        }
+
+        protected void guncelle_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void ekle_Click(object sender, EventArgs e)
+        {
+           
+        }
+    }
+}
+
